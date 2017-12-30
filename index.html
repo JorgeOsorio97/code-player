@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Code Player by JAVO</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../jquery-ui/jquery-ui.js"></script>
+    <link href="../jquery-ui/jquery-ui.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1 id="logo">Code Player</h1>
+        <div id="menu">
+            <div class="boton-menu select" id="html">HTML</div>
+            <div class="boton-menu" id="css">CSS</div>
+            <div class="boton-menu" id="js">JavaScript</div>
+            <div class="boton-menu select" id="output">Output</div>
+        </div>
+    </div>
+    <textarea id="htmlpanel" class="panel"></textarea>
+    <textarea id="csspanel" class="panel oculto"></textarea>
+    <textarea id="jspanel" class="panel oculto"></textarea>
+
+    <iframe id="outputpanel" class="panel"></iframe>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

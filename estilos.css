@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+}
+#header{
+    height: 30px;
+    background-color: #EEEEEE;;
+    width: 100%;
+    padding: 5px;
+}
+#logo{
+    font-size: 20PX;
+    padding:3px 5px;
+    float: left;
+    margin: 0px;
+}
+#menu{
+    width: 250px;
+    margin: 0 auto;
+    height: inherit;
+}
+.boton-menu{
+    float: left;
+    padding: 3px 5px;
+    border: 1px solid gray;
+}
+.hover{
+    background-color: grey;
+}
+.select{
+    background-color: #D4F2FF;
+}
+#html{
+    border-radius: 5px 0px 0px 5px;
+}
+
+#output{
+    border-radius: 0px 5px 5px 0px;
+}
+textarea{
+    resize: none;
+    border-top:none;
+    border-color:grey;       
+}
+iframe{
+    border:none;
+}
+.panel{
+    float: left; 
+
+    border-left: none;
+}
+.oculto{
+    display: none;
+}
